@@ -34,7 +34,7 @@
 #' it is not.
 #'
 #' @return Returns a data frame containing the following variables:
-#' \itemize{
+#' \describe{
 #'  \item{\code{CAMELS_site}}{CAMELS site number}
 #'  \item{\code{lat}}{CAMELS site latitude}
 #'  \item{\code{lon}}{CAMELS site longitude}
@@ -46,9 +46,7 @@
 #'  \item{\code{biasJack}}{the bias of the jackknife}
 #'  \item{\code{biasBoot}}{the bias of the bootstrap}
 #'  \item{\code{seJab}}{the standard error of the jackknife after bootstrap}
-##' }
-##'
-#' @return
+#' }
 #' @author Martyn Clark and Kevin Shook
 #' @seealso \code{\link{read_CAMELS}}
 #' @export

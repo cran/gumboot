@@ -58,7 +58,7 @@ it is not.}
 }
 \value{
 Returns a data frame containing the following variables:
-\itemize{
+\describe{
  \item{\code{CAMELS_site}}{CAMELS site number}
  \item{\code{lat}}{CAMELS site latitude}
  \item{\code{lon}}{CAMELS site longitude}
@@ -71,8 +71,6 @@ Returns a data frame containing the following variables:
  \item{\code{biasBoot}}{the bias of the bootstrap}
  \item{\code{seJab}}{the standard error of the jackknife after bootstrap}
 }
-
-
 }
 \description{
 Hydrologic model simulations can be produced using input-response data
